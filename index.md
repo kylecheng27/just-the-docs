@@ -7,7 +7,6 @@ permalink: /
 ---
 
 # Basic Introduction to MS Excel
-{: .fs-9 }
 
 Excel is a popular and powerful spreadsheet program for calculations and data analysis. This user guide is designed for beginners with basic computer knowledge. 
 {: .fs-6 .fw-300 }
@@ -16,59 +15,18 @@ Excel is a popular and powerful spreadsheet program for calculations and data an
 
 ---
 
-## Getting started
+## Preface
 
-### Dependencies
+Microsoft Excel (MS Excel) is a popular industry-standard spreadsheet program for performing calculations and organizing and analyzing data. You can find people using Excel at work, school, or for various personal tasks (personal finances, impromptu calculations, etc.). 
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+## Intended Audience
 
-### Quick start: Use as a GitHub Pages remote theme
+This guide is for basic computer users who had little or no exposure to MS Excel. The guide will build a solid base of knowledge so the reader may investigate more advanced topics in the future. Excel is a powerful program with an extensive list of features and functionality. Advanced topics such as Pivot tables and Microsoft Visual Basic will not be covered. By the end of this guide, you will know how to:
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+•	navigate the program features
+•	use formulas and functions
+•	perform simple data analysis   
 
-### Local installation: Use the gem-based theme
-
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
-```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
-```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
-```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
-```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
-```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
-
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
-
-### Configure Just the Docs
-
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
-
----
-
-## About the project
-
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
 
 ### License
 
